@@ -1,0 +1,36 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Редакторы и ОС
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Папки с результатами
+results_sst2/
+logs_sst2/
+results_sst2_minimal_test/
+
+# Кэш Hugging Face
+.cache/
+
+# Зависимости 
+dist/
+build/
+*.egg-info/
+
+
+
+# Локальные отчеты и артефакты
+*.html
+*.xml
+*.csv
+eval_results.json         
